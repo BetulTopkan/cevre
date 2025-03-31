@@ -536,6 +536,8 @@ main {
   align-items: center;
   justify-content: center;
   gap: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .banka-container p {
   font-size: 18px;
@@ -546,12 +548,16 @@ main {
   align-items: center;
   justify-content: center;
 }
+
 .garanti img {
-  display: block;
   width: 400px;
+  height: 150px;
+ 
 }
+
 .ziraat img {
   width: 600px;
+  height: 300px;
 }
 
 /*BANKA HESAPLARI STYLE BİTTİ*/
