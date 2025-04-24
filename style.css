@@ -2,8 +2,6 @@
   margin: 0px;
   padding: 0px;
 }
-body {
-}
 
 .navbar {
   width: 100%;
@@ -12,7 +10,7 @@ body {
   align-items: end;
   justify-content: space-between;
   margin-top: 10px;
-  border-bottom: 2px solid green;
+
   padding: 20px;
 }
 .navbar img {
@@ -116,7 +114,24 @@ body {
   transition: background-color 0.8s;
 }
 
+.main-title {
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #055d02;
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-top: 20px;
 }
 .gemi {
@@ -124,13 +139,13 @@ body {
   image-rendering: crisp-edges;
 }
 .content-container img {
-  width: 100%;
+  width: 50%;
+  height: auto;
 }
 .geriDonusum {
   margin: 0px;
   padding: 0px;
   font-size: 35px;
-
   color: rgb(188, 236, 188);
   display: flex;
   justify-content: center;
@@ -139,7 +154,7 @@ body {
 
 /*HAKKIMIZDA STYLES*/
 .hakkimizda {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,12 +194,11 @@ body {
 /*HAKKIMIZDA STYLE BİTTİ*/
 
 .footer {
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  padding: 15px;
-  border-top: 2px solid green;
 }
 
 .logo {
@@ -281,7 +295,7 @@ body {
 
 /*EKİBİMİZ STYLE*/
 .ekibimiz {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -342,7 +356,7 @@ body {
 
 /*BELGE STYLE*/
 .belgeH2 {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -390,7 +404,7 @@ body {
 
 /*REFERANSLARIMIZ STYLES*/
 .referans {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -449,7 +463,7 @@ body {
 
 /*İNSAN KAYNAKLARİ*/
 .insanBaslık {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -515,7 +529,7 @@ body {
 
 /*BANKA HESAPLARI STYLE*/
 .bankaHesap {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -558,7 +572,7 @@ body {
 
 /*ANTREPO STYLES*/
 .antrepo {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -594,7 +608,7 @@ body {
 
 /*ANTREPO STYLE BİTTİ*/
 .dahildeH2 {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -632,7 +646,7 @@ body {
 
 /*HARİÇTE İŞLETME*/
 .haricH2 {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -674,7 +688,7 @@ body {
 
 /*İHRACAT STYLE*/
 .ihracat {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -722,7 +736,7 @@ body {
 
 /*TRANSİT STYLE*/
 .transit {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -766,7 +780,7 @@ body {
 
 /*YATIRIM STYLE*/
 .yatirim {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -808,7 +822,7 @@ body {
 /*DESTEK HİZMET STYLE*/
 
 .destek {
-  box-shadow: 5px 5px 5px 5px rgb(202, 204, 246);
+  box-shadow: 5px 5px 5px 5px rgb(95, 102, 240);
   display: flex;
   align-items: center;
   justify-content: center;
